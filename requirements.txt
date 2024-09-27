@@ -1,0 +1,8 @@
+fastapi
+pymongo
+uvicorn
+python-dotenv
+pydantic
+setuptools
+pika
+ffmpeg-python

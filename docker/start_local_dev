@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+export PIP_CERT=/etc/ssl/certs/ca-certificates.crt >> ~/.bashrc
+
+echo "Install Python packages"
+pip install --upgrade pip
+pip install --no-cache-dir -r requirements.txt
+echo "Start Python app"
+
+/usr/bin/supervisord
